@@ -68,7 +68,8 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_column="3"
-                android:text="«" />
+                android:text="«"
+                android:textColor="@color/abc_search_url_text" />
 
             <Button
                 style="?android:attr/buttonStyleSmall"
@@ -82,7 +83,8 @@
                 android:layout_above="@+id/tableLayout"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_column="4" />
+                android:layout_column="4"
+                android:textColor="#FF000000" />
 
             <Button
                 style="?android:attr/buttonStyleSmall"
@@ -93,7 +95,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:onClick="pulsar"
-                android:tag="/" />
+                android:tag="/"
+                android:textColor="#f5c31f" />
 
             <Button
                 style="?android:attr/buttonStyleSmall"
@@ -104,7 +107,8 @@
                 android:onClick="pulsar"
                 android:tag="-"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:textColor="#f5c31f" />
 
         </TableRow>
 
@@ -177,7 +181,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:onClick="pulsar"
-                android:tag="x" />
+                android:tag="x"
+                android:textColor="#f5c31f" />
 
             <Button
                 style="?android:attr/buttonStyleSmall"
@@ -188,7 +193,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:onClick="pulsar"
-                android:tag="+" />
+                android:tag="+"
+                android:textColor="#f5c31f" />
 
         </TableRow>
 
@@ -242,7 +248,8 @@
                 android:tag="c"
                 android:layout_above="@+id/tableLayout"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true" />
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/abc_search_url_text" />
 
             <Button
                 style="?android:attr/buttonStyleSmall"
@@ -256,7 +263,8 @@
                 android:layout_above="@+id/tableLayout"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_column="4" />
+                android:layout_column="4"
+                android:textColor="#28a9e9" />
 
             <Button
                 style="?android:attr/buttonStyleSmall"
@@ -270,7 +278,8 @@
                 android:layout_above="@+id/tableLayout"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_column="5" />
+                android:layout_column="5"
+                android:textColor="#FF000000" />
 
             <Button
                 style="?android:attr/buttonStyleSmall"

@@ -72,7 +72,8 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_column="3"
-                android:text="«" />
+                android:text="«"
+                android:textColor="@color/abc_search_url_text" />
 
         </TableRow>
 
@@ -127,7 +128,8 @@
                 android:layout_height="match_parent"
                 android:onClick="pulsar"
                 android:tag="x"
-                android:layout_marginTop="0dp" />
+                android:layout_marginTop="0dp"
+                android:textColor="#f5c31f" />
 
         </TableRow>
 
@@ -182,7 +184,8 @@
                 android:layout_height="match_parent"
                 android:onClick="pulsar"
                 android:tag="/"
-                android:layout_marginTop="0dp" />
+                android:layout_marginTop="0dp"
+                android:textColor="#f5c31f" />
 
         </TableRow>
 
@@ -201,7 +204,8 @@
                 android:layout_height="match_parent"
                 android:onClick="pulsar"
                 android:tag="c"
-                android:layout_marginTop="0dp" />
+                android:layout_marginTop="0dp"
+                android:textColor="@color/abc_search_url_text" />
 
             <Button
                 style="?android:attr/buttonStyleSmall"
@@ -237,7 +241,8 @@
                 android:layout_height="match_parent"
                 android:onClick="pulsar"
                 android:tag="+"
-                android:layout_marginTop="0dp" />
+                android:layout_marginTop="0dp"
+                android:textColor="#f5c31f" />
 
         </TableRow>
 
@@ -256,7 +261,8 @@
                 android:onClick="pulsar"
                 android:layout_marginTop="0dp"
                 android:textSize="25dp"
-                android:layout_column="0" />
+                android:layout_column="0"
+                android:textColor="#28a9e9" />
 
             <Button
                 style="?android:attr/buttonStyleSmall"
@@ -268,7 +274,8 @@
                 android:onClick="pulsar"
                 android:layout_marginTop="0dp"
                 android:tag="MS"
-                android:text="MS" />
+                android:text="MS"
+                android:textColor="#FF000000" />
 
             <Button
                 style="?android:attr/buttonStyleSmall"
@@ -280,7 +287,8 @@
                 android:onClick="pulsar"
                 android:layout_marginTop="0dp"
                 android:tag="MU"
-                android:text="MU" />
+                android:text="MU"
+                android:textColor="#FF000000" />
 
             <Button
                 style="?android:attr/buttonStyleSmall"
@@ -292,7 +300,8 @@
                 android:tag="-"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="0dp" />
+                android:layout_marginTop="0dp"
+                android:textColor="#f5c31f" />
         </TableRow>
 
     </TableLayout>
