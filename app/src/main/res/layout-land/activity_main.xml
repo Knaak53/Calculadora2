@@ -110,6 +110,19 @@
                 android:layout_height="match_parent"
                 android:textColor="#f5c31f" />
 
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="raiz"
+                android:id="@+id/button34"
+                android:tag="raiz"
+                android:onClick="pulsar"
+                android:layout_marginTop="0dp"
+                android:textSize="15dp"
+                android:layout_column="7"
+                android:textColor="#28a9e9" />
+
         </TableRow>
 
         <TableRow
@@ -195,6 +208,25 @@
                 android:onClick="pulsar"
                 android:tag="+"
                 android:textColor="#f5c31f" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="tg"
+                android:id="@+id/button33"
+                android:tag="tg"
+                android:onClick="pulsar"
+                android:layout_marginTop="0dp"
+                android:textSize="15dp"
+                android:layout_column="7"
+                android:textColor="#28a9e9" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
         </TableRow>
 
@@ -283,13 +315,29 @@
 
             <Button
                 style="?android:attr/buttonStyleSmall"
-                android:text=":)"
-                android:id="@+id/button27"
-                android:layout_column="6"
-                android:textSize="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:onClick="pulsar" />
+                android:text="sen"
+                android:id="@+id/button27"
+                android:tag="sen"
+                android:onClick="pulsar"
+                android:layout_marginTop="0dp"
+                android:textSize="15dp"
+                android:layout_column="6"
+                android:textColor="#28a9e9" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="cos"
+                android:id="@+id/button32"
+                android:tag="cos"
+                android:onClick="pulsar"
+                android:layout_marginTop="0dp"
+                android:textSize="15dp"
+                android:layout_column="7"
+                android:textColor="#28a9e9" />
 
         </TableRow>
 
