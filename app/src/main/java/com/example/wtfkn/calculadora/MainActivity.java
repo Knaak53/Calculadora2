@@ -39,6 +39,42 @@ public class MainActivity extends AppCompatActivity {
             case "-":
                 operar(str);
                 break;
+            case "sen":
+                operar(str);
+                num.setText(Math.asin(Double.parseDouble((String) num.getText()))+"");
+                primeraVez=true;
+                otroNumero=true;
+                op.setText("");
+                resultado=null;
+                numeroAnt=null;
+                break;
+            case "cos":
+                operar(str);
+                num.setText(Math.acos(Double.parseDouble((String) num.getText()))+"");
+                primeraVez=true;
+                otroNumero=true;
+                op.setText("");
+                resultado=null;
+                numeroAnt=null;
+                break;
+            case "tg":
+                operar(str);
+                num.setText(Math.atan(Double.parseDouble((String) num.getText()))+"");
+                primeraVez=true;
+                otroNumero=true;
+                op.setText("");
+                resultado=null;
+                numeroAnt=null;
+                break;
+            case "raiz":
+                operar(str);
+                num.setText(Math.sqrt(Double.parseDouble((String) num.getText()))+"");
+                primeraVez=true;
+                otroNumero=true;
+                op.setText("");
+                resultado=null;
+                numeroAnt=null;
+                break;
             case "c":
                 primeraVez=true;
                 otroNumero=true;
@@ -46,6 +82,13 @@ public class MainActivity extends AppCompatActivity {
                 op.setText("");
                 resultado=null;
                 numeroAnt=null;
+                break;
+            case ".":
+                if(!op.getText().equals("") && siUltimoBotonEsValido(ultimoBoton)){
+                    op.setText(op.getText()+str);
+                    num.setText(num.getText()+str);
+                    ultimoBoton=".";
+                }
                 break;
             case "=":
                 if(resultado!=null && siUltimoBotonEsValido(ultimoBoton)) {
@@ -94,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
         }
-        if(!str.equals("D")) {
+        if(!str.equals("D") && !str.equals(".") && !str.equals("MS") && !str.equals("MU")) {
             ultimoBoton = str;
         }
     }
@@ -170,7 +213,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private boolean siUltimoBotonEsValido(String str){
-        if(str.equals("x") || str.equals("/") || str.equals("+") || str.equals("-")){
+        if(str.equals("x") || str.equals("/") || str.equals("+") || str.equals("-") || str.equals(".")){
             return false;
         }else{
             return true;
